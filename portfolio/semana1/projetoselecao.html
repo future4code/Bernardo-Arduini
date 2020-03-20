@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projeto Future4 (Selecao) </title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<style>
+body,h1,p{
+padding: 0;
+margin: 0;
+font-family: sans-serif;
+}
+a {
+text-decoration: none;
+color:white;
+padding: 0 10px;
+}
+h1{
+padding-top: 80px;
+text-align: center;
+}
+#imgFuture{
+text-align: center;
+margin-top: 100px;
+}
+#imgFuture img{
+    width: 37%;
+}
+#txtFuture{
+text-align: right;
+font-style: italic;
+margin-right: 20px;
+margin-top: 140px;
+font-size: 18px;
+}
+#email{
+text-align: center;
+}
+#email input{
+width: 300px;
+height: 30px;
+}
+#email button{
+width: 80px;
+height: 35px;
+background-color: #CD4D00;
+border: 0;
+color: white;
+cursor: pointer;
+}
+#boasVindas{
+position: fixed;
+right: 10px;
+top: 55px;
+}
+@media only screen and (max-width: 768px) {
+    #imgFuture img{
+        width: 80%;
+    }
+    h1{
+        font-size: 25px;
+    }
+    #imgFuture{
+        text-align: center;
+        margin-top: 150px;
+    }
+    #txtFuture{
+        margin-top: 230px;
+    }
+    #email input{
+        width: 200px;
+    }
+}
+</style>
+</head>
+<body>
+<!-- CABEÇALHO -->
+<header style="background-color:#CD4D00;padding:15px;text-align:right;">
+<a href="url">HOME</a>
+<a href="url">CURSOS</a>
+<a href="url">CONTATOS</a>
+</header>
+<!-- CONTEUDO -->
+<main style="background-color:#595F96;color:white;height: 650px;">
+    <span id="boasVindas"></span>
+<h1>Projeto seletivo Future4</h1>
+<p id="imgFuture"><img src="future4.jpg" alt="Img Future 4" /></p>
+<p id="txtFuture">Turma Web Full Stack</p>
+</main>
+<!-- RODAPÉ -->
+<div style="background-color:#D8D8D8;padding: 30px;">
+<p id="email" ><input id="emailContato" type="text" placeholder="Coloque seu e-mail para contato! :)" /><button onclick="validarEmail();">ENVIAR</button></p>
+</div>
+</body>
+<script>
+function validarEmail(){
+    email = document.getElementById('emailContato').value;
+    var re = /[A-Z0-9._%+-]+@[A-Z0-9.-]+.[A-Z]{2,4}/igm;
+    if(email == ''){
+        alert('Insira um e-mail');
+    } else if (!re.test(email)){
+        alert('Email Inválido');
+    } else{
+        document.getElementById('boasVindas').innerHTML = 'Bem vindo ' + email;
+    }
+}
+</script>
+</html>
