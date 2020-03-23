@@ -107,6 +107,7 @@ div:last-child {
 table {
     width: 60%;
     border: 1px solid black;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 td button {
