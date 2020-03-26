@@ -1,0 +1,70 @@
+div{
+    border: 1px solid black;
+}
+
+
+.container{
+    width: 500px;
+    height: 600px;
+    border: 1px solid black;
+    display: grid;
+    row-gap: 5px;
+    column-gap: 5px;
+    padding: 10px;
+    
+}
+
+.numero0{   
+text-align: center;
+background-color: red;
+column-gap: 25px;
+row-gap: 25px;
+}
+
+.numero1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 25px;
+    row-gap: 25px;
+    text-align: center;
+}
+
+.numero2{
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 25px;
+    row-gap: 25px;
+    text-align: center;
+   }
+
+.numero3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 25px;
+    row-gap: 25px;
+    text-align: center;
+}
+
+.item1{
+    background-color: green;
+}
+.item2{
+    background-color: yellow;
+}
+.item3{
+    background-color: blue;
+}
+
+@media screen and (min-device-width : 320px) and (max-device-width : 420px) {
+    /* celulares */
+    }
+    @media screen and (min-device-width : 421px) and (max-device-width : 800px) {
+    /* tablets */
+    }
+    @media screen and (min-device-width : 1200px) {
+    /* computadores */
+    }
+    
+
