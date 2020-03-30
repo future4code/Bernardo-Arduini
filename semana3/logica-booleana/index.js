@@ -38,7 +38,7 @@ console.log('V. ', array[i+1], " e ", valor)        //  V. 19 e 9
 
 i+=1
 array[i] = array[i-1]
-console.log('VI. ', array[i])       //  VI. 3
+console.log('VI. ', array[i])       //  VI.  3
 
 i = array.length - 1
 array[i] = array[i-3]

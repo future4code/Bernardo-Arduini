@@ -1,0 +1,20 @@
+Remember
+
+1. No grid-area existe linhas tanto na vertical quanto na horizontal. o grid-column-start e o grid-row-end sevem especificamente, para anunciar essas linhas por numeros, conseguindo assim definir os blocos que devem ser usados.
+
+2. Unidades relativas = Para fontes: unidades em, ex, ch, rem
+                        Porcentagem da viewport: unidades vw, vh, vmin, vmax
+
+   Unidades absolutas = Unidades cm, mm, q, in, pt, pc, px
+
+3. Uma diferenca marcante, seria que o grid e mais utilizado para se usar em todo o body de uma pagina.
+Ja o flex, tem mais eficiencia ao ser usado para centralizar ou posicionar <li> ou <Divs>
+
+
+Challenge 
+
+1 - Hello World, Bernardo
+2 - 0
+3 - false
+4 - 48
+6 - 1132
