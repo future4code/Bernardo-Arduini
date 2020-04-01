@@ -1,4 +1,4 @@
-1- dado os loops, o numero atingido seria o 150
+1-- dado os loops, o numero atingido seria o 150
 
 
 
