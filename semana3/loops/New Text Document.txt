@@ -1,0 +1,14 @@
+1-- dado os loops, o numero atingido seria o 150
+
+
+
+2-a- O comando push inclui um novo numero antes nao declarado no array
+
+b- (4) [10, 15, 25, 30]
+
+c- 1-(6) [12, 15, 18, 21, 27, 30]
+   2-[12]
+
+
+
+3- xx
