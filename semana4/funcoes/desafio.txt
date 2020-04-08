@@ -1,0 +1,17 @@
+1(a)-[]
+
+(b)-(6) [0, 1, 0, 1, 2, 3]
+
+(c)-(12) [0, 1, 0, 1, 2, 3, 0, 1, 2, 3, 4, 5]
+
+
+2(a)-0 , 2 , undefined. Eles puxam pelo indice e compara se o nome esta certo  (Pois nao tem paula, e sim paulinha)
+
+(b)-Sim, funcionaria do mesmo jeito. O funcionamento nao tem nada haver com os tipos. E sim sempre procurar no array
+o parametro especificado!
+
+
+3- Os lets resultados gera valores que ou somam ou multiplicao, usando o push no resultado final!
+fiz com [1, 2, 3, 4]. O resultado final deu 10 e 24
+
+
