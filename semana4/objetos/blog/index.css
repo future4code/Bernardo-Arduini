@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    border: 1px solid black;
+    height: 2em;
+    padding-top: 20px;
+    background-color: black;
+    color: white;
+    font-style: inherit;
+}
+h2 {
+    text-align: center;
+    padding-top: 1em;
+    font-size: 40px;
+    color: darkred;
+}
+
+#mostra-digitado{
+    text-align: center;
+    font-size: 25px;
+}
+#meu-input {
+    margin-left: 40vw;
+    height: 250px;
+    width: 390px;
+    font-size: 20px;
+    
+}
+#localiza{
+    padding-top: 100px;
+}
+button{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
