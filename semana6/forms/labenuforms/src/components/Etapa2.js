@@ -1,22 +1,17 @@
 import React from "react";
+import PerguntaAberta from "./PerguntaAberta";
+import PerguntaOpcoes from "./PerguntaOpcoes";
 
-export class Etapa2 extends React.Component {
-    render() {
-        return (
-            <div className={"App"}>
-
-                <h3>ETAPA 2 - INFORMACOES DO ENSINO SUPERIOR</h3>
-                <div>
-                    <p>5. Qual o curso?</p>
-                    <input></input>
-                </div>
-                <div>
-                    <p>6. Qual a unidade de ensino?</p>
-                    <input></input>
-                </div>
-                <button onClick={this.props.onClickLogout}>Proxima Etapa</button>
-
-            </div>
-        );
-    }
+class Etapa2 extends React.Component {
+  render() {
+    return (
+      <div>
+        <h3>ETAPA 2 - INFORMAÇÕES DO ENSINO SUPERIOR</h3>
+        <PerguntaAberta pergunta={"5. Qual curso?"} />
+        <PerguntaAberta pergunta={"6. Qual a unidade de ensino?"} />
+      </div>
+    );
+  }
 }
+
+export default Etapa2;
