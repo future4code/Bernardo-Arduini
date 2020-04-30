@@ -1,14 +1,8 @@
 import React from "react";
-import styled from "styled-components";
 import axios from "axios";
 
-const UserItem = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`;
 
-export class UsersListPage extends React.Component {
+export class ListaDoUsuario extends React.Component {
   state = {
     usersList: []
   };
@@ -23,7 +17,7 @@ export class UsersListPage extends React.Component {
         "https://us-central1-labenu-apis.cloudfunctions.net/labenusers/users",
         {
           headers: {
-            Authorization: "darvas"
+            Authorization: "bernardo"
           }
         }
       )
@@ -41,17 +35,14 @@ export class UsersListPage extends React.Component {
         `https://us-central1-labenu-apis.cloudfunctions.net/labenusers/users/${userId}`,
         {
           headers: {
-            Authorization: "darvas"
+            Authorization: "bernardo"
           }
         }
       )
       .then(response => {
-        window.alert("Usuario deletado com sucesso");
+        window.alert("Deletado");
         this.getUsersList();
       })
-      .catch(error => {
-        window.alert("Deu um erro :(");
-      });
   };
 
   render() {

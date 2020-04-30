@@ -1,15 +1,8 @@
 import React from "react";
-import styled from "styled-components";
 import axios from "axios";
 
-const FormContainer = styled.div`
-  display: grid;
-  gap: 8px;
-  justify-content: center;
-  margin-bottom: 32px;
-`;
 
-export class UserFormPage extends React.Component {
+export class PaginaDoUsuario extends React.Component {
   state = {
     nameValue: "",
     emailValue: ""
@@ -44,7 +37,7 @@ export class UserFormPage extends React.Component {
       })
       .catch(error => {
         console.log(error.response);
-        window.alert("Erro ao criar usuário!");
+        window.alert("Erro na Solicitacao");
       });
 
     this.setState({ nameValue: "", emailValue: "" });

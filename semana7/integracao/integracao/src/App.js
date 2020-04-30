@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
-import { UserFormPage } from "./components/UserFormPage";
-import { UsersListPage } from "./components/UsersListPage";
+import { PaginaDoUsuario } from "./Components/PaginaDoUsuario";
+import { ListaDoUsuario } from "./components/ListaDoUsuario";
 
 class App extends React.Component {
   state = {
